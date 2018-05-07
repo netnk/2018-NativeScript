@@ -8,7 +8,7 @@ exports.get_login = function() {
   userid = page.getViewById("userid");
   pwd = page.getViewById("pwd");
   //  alert(userid.text + pwd.text);
-  url = "http://ip/?mode=1&userid=" + userid.text + "&pwd=" + pwd.text;
+  url = "http://ip/?userid=" + userid.text + "&pwd=" + pwd.text;
   
   fetch(url)
     .then((response) => response.text())
