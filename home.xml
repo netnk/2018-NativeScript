@@ -1,0 +1,14 @@
+<Page loaded="loaded">
+	<ActionBar title="Home"></ActionBar>
+<FlexboxLayout>  
+	<StackLayout class="form">
+  
+  	<Image src="~/images/logo.png" />
+		<TextField id="userid" hint="User id" autocorrect="false" autocapitalizationType="none" class="input input-border"/>
+		<TextField id="password" class="input input-border" hint="Password" secure="true" />
+		<Button text="登 入" class="btn btn-primary" tap="signIn" />	
+
+	</StackLayout>
+</FlexboxLayout>
+</Page>
+
